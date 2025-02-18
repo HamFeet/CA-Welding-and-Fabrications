@@ -7,6 +7,7 @@ header {
   justify-content: space-around;
 }
 .logo {
+  margin: 40px;
   width: 100px;
   height: 40px;
   color: white;
@@ -28,6 +29,7 @@ header {
 }
 .nav-item:hover {
   color: #ffa800;
+  border-bottom: 2px solid #ffa800;
 }
 .intro {
   height: 100vh;
@@ -36,7 +38,7 @@ header {
   font-family: teko;
   font-size: 2.5em;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/images/welder.jpg");
+    url("/Code/images/welder.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
