@@ -31,6 +31,10 @@ header {
   color: #ffa800;
   border-bottom: 2px solid #ffa800;
 }
+.nav-item a {
+  color: inherit;
+  text-decoration: none;
+}
 .intro {
   height: 100vh;
   width: auto;
@@ -52,6 +56,9 @@ header {
   transform: translate(-50%, -50%);
 }
 @media screen and (max-width: 550px) {
+  header {
+    justify-content: flex-start;
+  }
   .nav-bar {
     display: none;
   }
