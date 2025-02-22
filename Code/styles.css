@@ -83,6 +83,7 @@ header {
   padding: 20px;
   text-align: center;
   color: white;
+  border-radius: 5%;
 }
 .card h3,
 p {
