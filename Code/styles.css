@@ -182,7 +182,28 @@ footer {
   header {
     justify-content: flex-start;
   }
+
+/* --- Our Work Layout --- */
+
   .nav-bar {
     display: none;
+  }
+
+/* --- Our Work Layout --- */
+
+  #our-work {
+    display: flex;
+    flex-direction: column;
+    height: 1900px;
+  }
+
+/*  --- Contact Form Layout --- */
+
+  #contact {
+    height: 550px
+  }
+  #contact-form-container {
+    width:60%; 
+    height: 45%;
   }
 }
